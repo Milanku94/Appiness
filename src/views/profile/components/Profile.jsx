@@ -30,7 +30,7 @@ function Profile(props) {
                       <FormGroup>
                         <label>Username</label>
                         <Input
-                          defaultValue="milannayak"
+                          //defaultValue="milannayak"
                           placeholder="Username"
                           type="text"
                         />
@@ -41,26 +41,39 @@ function Profile(props) {
                         <label htmlFor="exampleInputEmail1">
                           Email address
                           </label>
-                        <Input defaultValue="milannayak@gmail.com" placeholder="Email" type="email" />
+                        <Input 
+                        //defaultValue="milannayak@gmail.com" 
+                        placeholder="Email" 
+                        type="email" />
                       </FormGroup>
                     </Col>
                   </Row>
                   <Row>
-                    <Col className="pr-1" md="6">
+                    <Col className="pr-1" md="4">
                       <FormGroup>
                         <label>First Name</label>
                         <Input
-                          defaultValue="Milan"
-                          placeholder="Company"
+                          //defaultValue="Milan"
+                          placeholder="First Name"
                           type="text"
                         />
                       </FormGroup>
                     </Col>
-                    <Col className="pl-1" md="6">
+                    <Col className="pr-1" md="4">
+                    <FormGroup>
+                        <label>Middle Name</label>
+                        <Input
+                          //defaultValue="Milan"
+                          placeholder="Middle Name"
+                          type="text"
+                        />
+                      </FormGroup>
+                    </Col>
+                    <Col className="pl-1" md="4">
                       <FormGroup>
                         <label>Last Name</label>
                         <Input
-                          defaultValue="Nayak"
+                          //defaultValue="Nayak"
                           placeholder="Last Name"
                           type="text"
                         />
@@ -72,7 +85,7 @@ function Profile(props) {
                       <FormGroup>
                         <label>Address</label>
                         <Input
-                          defaultValue="India"
+                          //defaultValue="India"
                           placeholder="Home Address"
                           type="text"
                         />
@@ -84,7 +97,7 @@ function Profile(props) {
                       <FormGroup>
                         <label>City</label>
                         <Input
-                          defaultValue="Chennai"
+                          //defaultValue="Chennai"
                           placeholder="City"
                           type="text"
                         />
@@ -94,7 +107,7 @@ function Profile(props) {
                       <FormGroup>
                         <label>Country</label>
                         <Input
-                          defaultValue="India"
+                          //defaultValue="India"
                           placeholder="Country"
                           type="text"
                         />
